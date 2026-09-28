@@ -1,0 +1,211 @@
+{
+  "region": "Washington, USA",
+  "total_cities": 22,
+  "total_edges": 35,
+  "locations": {
+    "Seattle, WA": {
+      "lat": 47.6038321,
+      "lon": -122.330062
+    },
+    "Bellevue, WA": {
+      "lat": 47.6144219,
+      "lon": -122.192337
+    },
+    "Redmond, WA": {
+      "lat": 47.6694141,
+      "lon": -122.1238767
+    },
+    "Kirkland, WA": {
+      "lat": 47.6765382,
+      "lon": -122.2070775
+    },
+    "Renton, WA": {
+      "lat": 47.4799078,
+      "lon": -122.2034496
+    },
+    "Kent, WA": {
+      "lat": 47.3826903,
+      "lon": -122.2270272
+    },
+    "Auburn, WA": {
+      "lat": 47.3075369,
+      "lon": -122.2301808
+    },
+    "Federal Way, WA": {
+      "lat": 47.313494,
+      "lon": -122.33931
+    },
+    "Tacoma, WA": {
+      "lat": 47.2455013,
+      "lon": -122.438329
+    },
+    "Lakewood, WA": {
+      "lat": 47.1717649,
+      "lon": -122.518458
+    },
+    "Puyallup, WA": {
+      "lat": 47.1849009,
+      "lon": -122.29214
+    },
+    "Issaquah, WA": {
+      "lat": 47.5348778,
+      "lon": -122.043297
+    },
+    "Bothell, WA": {
+      "lat": 47.7623204,
+      "lon": -122.2054035
+    },
+    "Everett, WA": {
+      "lat": 47.9793437,
+      "lon": -122.2127011
+    },
+    "Lynnwood, WA": {
+      "lat": 47.8278656,
+      "lon": -122.3053932
+    },
+    "Edmonds, WA": {
+      "lat": 47.8105738,
+      "lon": -122.3774952
+    },
+    "Shoreline, WA": {
+      "lat": 47.7564667,
+      "lon": -122.3437497
+    },
+    "Burien, WA": {
+      "lat": 47.469918,
+      "lon": -122.3485274
+    },
+    "Snoqualmie, WA": {
+      "lat": 47.5289527,
+      "lon": -121.827093
+    },
+    "Mercer Island, WA": {
+      "lat": 47.5766324,
+      "lon": -122.2276378
+    },
+    "Tukwila, WA": {
+      "lat": 47.4627356,
+      "lon": -122.2559156
+    },
+    "Sammamish, WA": {
+      "lat": 47.6017554,
+      "lon": -122.0416844
+    }
+  },
+  "graph": {
+    "Seattle, WA": {
+      "Shoreline, WA": 11.72,
+      "Burien, WA": 10.95,
+      "Tukwila, WA": 11.41,
+      "Bellevue, WA": 11.09,
+      "Mercer Island, WA": 6.17
+    },
+    "Bellevue, WA": {
+      "Seattle, WA": 11.09,
+      "Mercer Island, WA": 6.27,
+      "Kirkland, WA": 5.71,
+      "Redmond, WA": 7.21,
+      "Issaquah, WA": 10.79,
+      "Renton, WA": 10.28
+    },
+    "Redmond, WA": {
+      "Kirkland, WA": 4.28,
+      "Bellevue, WA": 7.21,
+      "Sammamish, WA": 8.2
+    },
+    "Kirkland, WA": {
+      "Bothell, WA": 8.0,
+      "Bellevue, WA": 5.71,
+      "Redmond, WA": 4.28
+    },
+    "Renton, WA": {
+      "Issaquah, WA": 15.78,
+      "Bellevue, WA": 10.28,
+      "Tukwila, WA": 4.34,
+      "Kent, WA": 7.82
+    },
+    "Kent, WA": {
+      "Renton, WA": 7.82,
+      "Tukwila, WA": 8.33,
+      "Auburn, WA": 5.64,
+      "Federal Way, WA": 9.83
+    },
+    "Auburn, WA": {
+      "Kent, WA": 5.64,
+      "Federal Way, WA": 7.22,
+      "Puyallup, WA": 11.82
+    },
+    "Federal Way, WA": {
+      "Burien, WA": 16.99,
+      "Kent, WA": 9.83,
+      "Auburn, WA": 7.22,
+      "Tacoma, WA": 11.96
+    },
+    "Tacoma, WA": {
+      "Federal Way, WA": 11.96,
+      "Puyallup, WA": 9.66,
+      "Lakewood, WA": 9.46
+    },
+    "Lakewood, WA": {
+      "Puyallup, WA": 12.82,
+      "Tacoma, WA": 9.46
+    },
+    "Puyallup, WA": {
+      "Auburn, WA": 11.82,
+      "Tacoma, WA": 9.66,
+      "Lakewood, WA": 12.82
+    },
+    "Issaquah, WA": {
+      "Sammamish, WA": 6.61,
+      "Bellevue, WA": 10.79,
+      "Snoqualmie, WA": 13.37,
+      "Renton, WA": 15.78
+    },
+    "Bothell, WA": {
+      "Shoreline, WA": 9.24,
+      "Lynnwood, WA": 9.81,
+      "Kirkland, WA": 8.0
+    },
+    "Everett, WA": {
+      "Lynnwood, WA": 14.82
+    },
+    "Lynnwood, WA": {
+      "Shoreline, WA": 5.67,
+      "Edmonds, WA": 4.45,
+      "Everett, WA": 14.82,
+      "Bothell, WA": 9.81
+    },
+    "Edmonds, WA": {
+      "Shoreline, WA": 4.9,
+      "Lynnwood, WA": 4.45
+    },
+    "Shoreline, WA": {
+      "Seattle, WA": 11.72,
+      "Edmonds, WA": 4.9,
+      "Lynnwood, WA": 5.67,
+      "Bothell, WA": 9.24
+    },
+    "Burien, WA": {
+      "Seattle, WA": 10.95,
+      "Tukwila, WA": 4.49,
+      "Federal Way, WA": 16.99
+    },
+    "Snoqualmie, WA": {
+      "Issaquah, WA": 13.37
+    },
+    "Mercer Island, WA": {
+      "Seattle, WA": 6.17,
+      "Bellevue, WA": 6.27
+    },
+    "Tukwila, WA": {
+      "Seattle, WA": 11.41,
+      "Renton, WA": 4.34,
+      "Burien, WA": 4.49,
+      "Kent, WA": 8.33
+    },
+    "Sammamish, WA": {
+      "Redmond, WA": 8.2,
+      "Issaquah, WA": 6.61
+    }
+  }
+}
