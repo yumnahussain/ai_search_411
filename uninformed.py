@@ -3,7 +3,6 @@ import heapq
 
 
 def _neighbors(map_data, city):
-    """Return a city's adjacent cities as (name, distance) pairs."""
     return sorted(map_data.get("graph", {}).get(city, {}).items())
 
 

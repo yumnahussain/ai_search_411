@@ -18,7 +18,7 @@ import requests
 # Configuration: Select USA Region & Locations (>= 20 cities)
 # Example Region: Illinois, USA
 # ---------------------------------------------------------
-REGION_NAME = "Washington, USA"
+REGION_NAME = "Greater Seattle Area, Washington, USA"
 
 CITIES = [
     "Seattle, WA",
