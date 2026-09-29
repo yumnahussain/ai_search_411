@@ -42,13 +42,14 @@
 ## Section 4: Deployed and Presentation Information
 - **Deployment Platform:** Render
 - **Live Deployment URL:** https://four11-project-1-ai-search.onrender.com/
-- **Video Presentation Link:** https://drive.google.com/file/d/1fY8NS32oPhIrVxGnUTjCZ1Rkaj9HMQMV/view?usp=sharing
+- **Video Presentation Link:** https://drive.google.com/file/d/1i5_sPYz2q-Csa5suwbKz936k95wqTBKY/view?usp=sharing
 
 ---
 
 ## Section 5: Discussion
 - **Which search algorithm is best for this route finding problem?** 
     A* is the best algorithm for this route finding problem. It looks at the distance already traveled and estimates how far the destination is using the heuristic, which reduces the number of nodes we need to explore. This makes it better than UCS because it explores fewer nodes. It is also more efficient than Greedy because it finds the shortest route, and it is more cost effective than BFS and DFS because they do not consider the road distance when choosing which city to explore next.
-- **Search Efficiency (Nodes expanded/time taken comparison):** For the route from Everett, WA to Lakewood, WA, BFS and UCS both explored 22 nodes and found a route that cost 81.57 miles. DFS explored 18 nodes, but found a longer route of 107.01 miles because it follows one path before checking other routes. IDS found the same 81.57-mile route as BFS, but it explored 450 nodes because it repeats the search at different levels. Greedy Best-First Search explored the fewest nodes with only 8. A* explored 9 nodes and found the same 81.57-mile route. Even though Greedy explored one less node, A* is more reliable because it finds the lowest-cost route.
+- **Search Efficiency (Nodes expanded/time taken comparison):** 
+    For the route from Everett, WA to Lakewood, WA, BFS and UCS both explored 22 nodes and found a route that cost 81.57 miles. DFS explored 18 nodes, but found a longer route of 107.01 miles because it follows one path before checking other routes. IDS found the same 81.57-mile route as BFS, but it explored 450 nodes because it repeats the search at different levels. Greedy Best-First Search explored the fewest nodes with only 8. A* explored 9 nodes and found the same 81.57-mile route. Even though Greedy explored one less node, A* is more reliable because it finds the lowest-cost route.
 - **Link the idea of search algorithm to today Generative AI.** 
     The search algorithm is important in Generative AI because the concept of predicting the next best token relies on both cost, efficiency, and accuracy. A good combination of cost, efficiency, and accuracy is also what makes for the most optimal search algorithm. A generative AI model should be able to predict the RIGHT token, in the cheapest way possible while providing accurate information.
