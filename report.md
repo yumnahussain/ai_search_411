@@ -42,7 +42,7 @@
 ## Section 4: Deployed and Presentation Information
 - **Deployment Platform:** Render
 - **Live Deployment URL:** https://four11-project-1-ai-search.onrender.com/
-- **Video Presentation Link:** [Provide an accessible link to your 5–7 minute video presentation]
+- **Video Presentation Link:** https://drive.google.com/file/d/1fY8NS32oPhIrVxGnUTjCZ1Rkaj9HMQMV/view?usp=sharing
 
 ---
 
